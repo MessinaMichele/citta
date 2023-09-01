@@ -1,0 +1,7 @@
+<div>
+  <button (click)="ordinaAlfabeticamente()">Ordina Alfabeticamente</button>
+  <button (click)="ordinaPerAltitudine()">Ordina per Altitudine</button>
+</div>
+<div *ngFor="let dato of dati">
+  <app-dato [dato]="dato"></app-dato>
+</div>
